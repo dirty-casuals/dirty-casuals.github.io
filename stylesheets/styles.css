@@ -75,12 +75,9 @@ h1, h2, h3 {
   line-height:1.1;
 }
 
-h1 {
+h1, h2 {
   font-size:28px;
-}
-
-h2 {
-  color:#393939;
+  color: #da0534;
 }
 
 h3, h4, h5, h6 {
@@ -246,6 +243,32 @@ footer {
   position:fixed;
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
+}
+
+#dc-logo {
+  width: 100%;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px 0 5px;
+}
+
+.view {
+  margin-top: 10px;
+}
+
+.half {
+  width: 50%;
+}
+
+#left {
+  float: left;
+}
+
+#right {
+  float: right;
 }
 
 @media print, screen and (max-width: 960px) {
